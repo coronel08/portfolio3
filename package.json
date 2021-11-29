@@ -1,0 +1,21 @@
+{
+  "name": "portfolio3",
+  "version": "1.0.0",
+  "description": "Portfolio built using JS,HTML,CSS, tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fidel C",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/runtime-corejs2": "^7.16.3",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.5"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
