@@ -1,11 +1,21 @@
-$primary-color: slateblue;
+$primary-color: #153956;
+$secondary-color: #002e4d;
+$ternary-color: #F6A4A5;
+$compliment-color: #BFDBFD;
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background: $primary-color;
+    color: $compliment-color;
+
+}
+
+.icon {
+    color:$ternary-color; 
 }
