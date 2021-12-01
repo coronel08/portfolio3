@@ -20,7 +20,7 @@ let workData = [
         about: "ALJ Work",
         primWork: "Digital Marketing",
         primDuties: [
-            ": Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
+            "Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
             "SEO & Adwords: Research keywords, clients, and create a marketing funnel",
             "CRM Campaigns: Tracking the ROI of our marketing campaigns digital a"
         ],
@@ -70,7 +70,7 @@ let workData = [
 let projData = [
     {
         project: "Venues",
-        photo: "https://fcoronel.com/images/conertzone.png",
+        photo: "https://raw.githubusercontent.com/coronel08/my-portfolio/main/images/conertzone.png",
         built: [
             '<i class="fab fa-node fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>',
@@ -107,21 +107,20 @@ let projData = [
         project: "Lobo Security",
         photo: "https://github.com/coronel08/wp-child/blob/main/myspace/static/photos/lobo-security.png?raw=true",
         built: [
-            '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
-            '<i class="fab fa-js fa-lg"></i>'
+            '<i class="fab fa-wordpress-simple fa-lg"></i>',
+            '<i class="fab fa-elementor fa-lg"></i>',
+            '<i class="far fa-file-code fa-lg"></i>',
         ],
         about: "",
         tags: "Frontend"
     },
     {
         project: "Myspace",
-        photo: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg",
+        photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/myspace.png",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
+            '<i class="fab fa-wordpress fa-lg"></i>',
+            '<i class="fab fa-html5 fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
         about: "",
@@ -132,8 +131,8 @@ let projData = [
         photo: "https://github.com/coronel08/wp-child/blob/main/myspace/static/photos/Takeout.png?raw=true",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
+            '<i class="fab fa-wordpress fa-lg"></i>',
+            '<i class="fab fa-html5 fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
         about: "",
@@ -144,8 +143,7 @@ let projData = [
         photo: "https://github.com/coronel08/shopify-test/blob/master/public/images/shopify-project.png?raw=true",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
+            '<i class="fab fa-shopify fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
         about: "",
@@ -155,22 +153,18 @@ let projData = [
         project: "HD Webscrape",
         photo: "https://github.com/coronel08/HomeDepot_PriceScrape/raw/master/webscrape.gif",
         built: [
-            '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
-            '<i class="fab fa-js fa-lg"></i>'
+            '<i class="fab fa-python fa-lg"></i>',
+            '<i class="fas fa-file-excel fa-lg"></i>',
         ],
         about: "",
         tags: "Python"
     },
     {
         project: "Twilio",
-        photo: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg",
+        photo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftwilio-cms-prod.s3.amazonaws.com%2Fimages%2Fsip-interface_diagram_v2-2x.width-1600.png&f=1&nofb=1",
         built: [
-            '<i class="fab fa-bootstrap fa-lg"></i>',
-            '<i class="fab fa-react fa-lg"></i>',
-            '<i class="fab fa-yelp fa-lg"></i>',
-            '<i class="fab fa-js fa-lg"></i>'
+            '<i class="fab fa-python fa-lg"></i>',
+            '<i class="fas fa-sms fa-lg"></i>',
         ],
         about: "",
         tags: "Python"
