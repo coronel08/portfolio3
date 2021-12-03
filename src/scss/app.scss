@@ -22,12 +22,14 @@ body {
 }
 
 #resume-button{
-    background-color: $secondary-color;
+    background-color: darken($secondary-color,5%);
     border-radius:0.5rem;
     font-weight: 500;
     box-shadow: -20px 20px $ternary-color;
     margin: 2rem 6rem;
     padding: 1rem 4rem;
+    font-weight: 700;
+    
 }
 
 .blue-line{
@@ -96,3 +98,93 @@ body {
     }
 }
 
+// Pricing Card section
+.pricing-card{
+    max-width: 80rem;
+    padding: 1rem;
+    position: relative;
+    ul{
+        padding-left: 1rem;
+    }
+    li{
+        list-style-type: disc;
+    }
+
+    // Global before, white border at 50% width
+    &::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        border: solid white;
+      }
+
+    h3{
+        font-weight: 700;
+        font-size: 1.3em;
+        padding-bottom: .3rem;
+    }
+
+    .info{
+        border: .5rem solid $secondary-color;
+        border-radius: 1rem;
+        background-color: $primary-color;
+        padding: .8rem;
+    }
+
+    // Pricing Card Odd
+    &:nth-child(odd){
+        padding-right: 10%;
+
+        h3::before{
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: -5px;
+            background: white;
+            border-radius: 999px;
+        }
+
+        &::before{
+            left: 0px;
+            top: -4.5px;
+            bottom: -4.5px;
+            border-width: 5px 0 5px 5px;
+            border-radius: 50px 0 0 50px;
+        }
+    }
+
+    &:first-child::before{
+        border-top: 0;
+        border-top-left-radius: 0;
+    }
+
+    // Pricing Card Even
+    &:nth-child(even){
+        padding-left: 20%;
+        
+        
+        h3{
+            text-align: right;
+        }
+
+        
+        h3::before{
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -5px;
+            background: white;
+            border-radius: 999px;
+        }
+
+        &::before{
+            right:0;
+            top: 0;
+            bottom: 0;
+            border-width: 5px 5px 5px 0;
+            border-radius: 0 50px 50px 0;
+        }
+    }
+}

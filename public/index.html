@@ -32,12 +32,12 @@
                     <div id="title" class="-mt-80 md:mt-12 lg:mt-32 p-4 md:p-8 lg:px-36">
                         <h1>Im Fidel Coronel: Full Stack Web Dev</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illum aliquid
-                            asperiores
-                            sed cum corrupti illo impedit. Error, illo fugit, temporibus ipsa voluptates, iure quis
-                            perferendis praesentium modi tempora ex.
+                            I enjoy being able to translate things from interesting ideas to actual projects in the same way a musician expresses themselves using
+                            music. My goal is to continue developing my ability to use my favorite tool, a computer, to solve problems. 
                         </p>
-                        <button id="resume-button"><a href="https://s3.us-west-1.amazonaws.com/fdlme.com/fidelmar_resume.pdf" target="_blank">Resume</a></button>
+                        <button id="resume-button"><a
+                                href="https://s3.us-west-1.amazonaws.com/fdlme.com/fidelmar_resume.pdf"
+                                target="_blank">Resume</a></button>
                     </div>
                     <!-- Blue Line  -->
                     <div class=" absolute blue-line left-0"></div>
@@ -112,7 +112,7 @@
         </section>
 
         <!-- Work Experience -->
-        <section>
+        <section id="wrk">
             <div class="grid grid-cols-3 p-6">
                 <!-- Header -->
                 <div class="col-span-12 title-header">
@@ -142,17 +142,72 @@
         </section>
 
         <!-- Project Section -->
-        <section>
+        <section id="prjcts">
             <div class="mt-12 p-4">
                 <!-- Filter Buttons -->
                 <h4 class="title-header">Projects</h4>
                 <div id="filter-proj" class="flex flex-wrap place-content-center my-8 gap-4">
+                    <button> None </button>
                     <button> Frontend </button>
                     <button> Full Stack </button>
                     <button> Python </button>
                 </div>
                 <!-- Project Card Grid -->
                 <div id="projects" class="grid grid-cols-12 gap-4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section, https://dev.to/j471n/curved-css-timeline-5ab3 -->
+        <section id="pricing">
+            <h3 class="title-header pl-6">Pricing</h3>
+            <p class="pl-8 text-xs">Prices are averages and can be negotiated upon depending on how intensive the project is or your budget.</p>
+            <div class="m-4 p-1 flex flex-col">
+                <div class="pricing-card">
+                    <div class="info">
+                        <h3>Apps and Zerts - $100</h3>
+                        <p>Review your technology and marketing needs, guide you on improving them.</p>
+                        <p>Examples:</p>
+                        <ul>
+                            <li>Make minor changes to website</li>
+                            <li>Implement Cloud systems ex:Cloud Based Phone and Text System, Cloud Server, asses migrating a service to the cloud</li>
+                            <li>Review opportunity to automate or improve task or process using programming or coding</li>
+                            <li>Review how we can use tools/technology such as Google Analytics, Invoicing System, E-Commerce, Online Payments, or Databases to improve the company and sales</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="info">
+                        <h3>Grand Slam - $500</h3>
+                        <p>
+                            Design a website using whatever framework(Wordpress, Shopify, etc) or language(Python, Javascript, PHP, HTML) is best for you.
+                        </p>
+                        <p>Includes:</p>
+                            <ul>
+                                <li>Use the best website host and domain registrars for your needs</li>
+                                <li>Design a website with 1 revision after design is completed</li>
+                                <li>Search Engine Optimization & showing up on Google</li>
+                                <li>Create digital content needed for website(can create logos if needed)</li> </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="info">
+                        <h3>Grand Slamwich - $+1000</h3>
+                        <p class="pt-4 underline">Website and Marketing upgrade includes:</p>
+                            <ul>
+                                <li>Research Keywords, competitors keywords, and analytics to design a google ads campaign to target keywords within budget.</li>
+                                <li>Optimize website to focus on keywords and optimizing for speed and mobile that improve Organic Rankings, </li>
+                                <li>Implement Marketing Campaign, track Metrics and Analytics and review after a month.</li>
+                                <li>Website with more intensive work. Server Work, Email server, or other service</li>
+                            </ul>
+                        <p class="pt-8 underline">Full Stack development and IT starting at $1000+, examples:</p>
+                            <ul>
+                                <li>Build a website backend and frontend that can interact with a databse, server, or API etc</li>
+                                <li>Complicated websites, projects, coding, or IT work</li>
+
+                            </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -177,7 +232,9 @@
 
         <!-- Footer Section -->
         <footer class="flex items-center h-10 w-full">
-            <p class="mx-auto">Built with Tailwind</p>
+            <p class="mx-auto">Built with Love 
+                <i class="far fa-heart"></i> 
+            </p>
         </footer>
     </wrapper>
 
