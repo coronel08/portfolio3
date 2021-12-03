@@ -6,7 +6,12 @@ function projectCard(projData) {
     for (let proj of projSelect) {
         proj.addEventListener("click", (e) => {
             let filteredProj = projData.filter((data) => data.tags === e.target.innerText)
+            for (let item of projSelect){
+                item.classList.remove("actv")
+            }
+            proj.classList.toggle("actv")
             createProjectCard(filteredProj)
+            console.log(proj)
         })
     }
 

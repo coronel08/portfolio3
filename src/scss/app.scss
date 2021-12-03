@@ -19,7 +19,7 @@ body {
 }
 
 #resume-button{
-    background-color: darken($secondary-color,5%);
+    background-color: $secondary-color;
     border-radius:0.5rem;
     font-weight: 500;
     box-shadow: -20px 20px $ternary-color;
@@ -67,11 +67,11 @@ body {
 
 // Job section
 .blue-border{
-    border: 8px solid #002e4d;
+    border: 8px solid $ternary-color;
 }
 
 .actv{
-    border: 6px solid aquamarine;
+    border: 6px solid #008D92;
 }
 
 #job{
@@ -87,11 +87,15 @@ body {
 // Projects section
 #filter-proj{
     button{
-        background-color: #002e4d;
+        background-color: $ternary-color;
         border: 2px solid rgb(246 164 165);
         font-weight: bold;
         border-radius: 0.25rem;
-        padding: .5rem 1rem
+        padding: .5rem 1rem;
+        
+        &.actv{
+            border: 6px solid #008D92;
+        }
     }
 }
 

@@ -4,8 +4,7 @@ const navbar = () => {
         <i class="fab fa-fort-awesome fa-lg mt-4 md:mt-0"></i>
     </a>
     <div class="hidden md:flex gap-8 text-blue-200">
-        <p class="">Test</p>
-        <p class="">Test2</p>
+        <p class="">Logo</p>
     </div>
     <div class="flex gap-8 mr-8 m-4 text-blue-200 justify-between">
         <a href="#wrk">Work</a>
