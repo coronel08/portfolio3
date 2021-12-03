@@ -11,7 +11,6 @@ function projectCard(projData) {
             }
             proj.classList.toggle("actv")
             createProjectCard(filteredProj)
-            console.log(proj)
         })
     }
 
