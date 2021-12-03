@@ -1,7 +1,7 @@
 const navbar = () => {
     let template = `
-    <a href="/" class="text-white md:m-12 text-center mt-4">
-        Home
+    <a id="home" href="/" class="text-white m-8 md:m-12 text-center mt-4">
+        <i class="fab fa-fort-awesome fa-lg mt-4 md:mt-0"></i>
     </a>
     <div class="hidden md:flex gap-8 text-blue-200">
         <p class="">Test</p>

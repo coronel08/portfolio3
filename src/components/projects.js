@@ -21,15 +21,35 @@ function projectCard(projData) {
             // Create Icon Elements in a flex
             let projFlex = document.createElement("div")
             projFlex.classList.add("flex", "justify-between", "p-4")
+
+
+            // Create function for below FA Icons and Links
+            function combineLinkAndIcon(icon,link){
+                let aTag = document.createElement("a")
+                if (link.length > 1){
+                    aTag.target="_blank"
+                    aTag.href = link
+                    aTag.append(icon)
+                    return aTag
+                } else {
+                    icon.classList.add("disabled")
+                    return icon
+                }
+            }
+            // FA Icons for Git
             let faGit = document.createElement("i")
             faGit.classList.add("fab", "fa-git-square", "fa-3x")
+            let gitLink = combineLinkAndIcon(faGit,proj.git)
+            // FA Icons for Link 
             let faLink = document.createElement("i")
             faLink.classList.add("fas", "fa-external-link-alt", "fa-lg")
+            let projLink = combineLinkAndIcon(faLink, proj.link)
+            // Proj Title
             let projTitle = document.createElement("h4")
             projTitle.classList.add("text-lg", "font-bold")
             projTitle.innerText = proj.project
-            // append icons and title to flex row
-            projFlex.append(faGit, projTitle, faLink)
+            // Append icons, links and title to flex row
+            projFlex.append(gitLink, projTitle, projLink)
 
             // Photo
             let projPhoto = document.createElement("img")

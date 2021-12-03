@@ -2,7 +2,7 @@
 let workData = [
     {
         job: "Freelance",
-        about: "Working as an Independent Contractor for IT services and Web Development. My largest client was Restraunt Brands International, where I serviced their So Cal chains, KFC and Taco Bell. I have continued to develop websites over the past few years for many other clients using HTML, CSS, and Javascript",
+        about: "Working as an Independent Contractor for IT services and Web Development. My largest client was Restraunt Brands International, where I serviced their So Cal chains (KFC and Taco Bell). I have continued to develop websites over the past few years for many other clients using HTML, CSS, and Javascript",
         primWork: "Network & IT",
         primDuties: [
             "Networking: Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
@@ -17,10 +17,10 @@ let workData = [
     },
     {
         job: "ALJ",
-        about: "ALJ Work",
+        about: "ALJ Electronics abreviated as ALJCO is an electronics company with an online e-commerce presence. Specializing in the sale of commercial and industrial laundry equipment and the manufacturing of parts",
         primWork: "Digital Marketing",
         primDuties: [
-            "Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
+            "E-Commerce: Managed Fullfilled By Amazon, Ebay, and Google Shopping feeds and accounts",
             "SEO & Adwords: Research keywords, clients, and create a marketing funnel",
             "CRM Campaigns: Tracking the ROI of our marketing campaigns digital a"
         ],
@@ -32,33 +32,32 @@ let workData = [
     },
     {
         job: "Reborn",
-        about: "Reborn Cabinets Work",
+        about: "Reborn Cabinets is one of the largest cabinet companies in the nation with 7 locations located across the west coast. Partnered with Home Depot, Kohler, and Costco they maintain a stronghold in the remodeling industry",
         primWork: "Marketing Manager",
         primDuties: [
-            "Recruitment and Training: Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
-            "Orn: Migrations, Cloud Integration, Shares(SMB/NFS), Hardware and Software troubleshooting, Linux and Windows, Raid, Backups",
-            "Cabinet and VOIP using Softphones, Avaya, 3cx, and Five9 auto dialer"
+            "Held accountable for the efficiency of marketing campaigns (generating leads and sales). Executed weekly profitability reports using Excel, VBA, and Python on marketing campaigns (+30M annual revenue)",
+            "Directed the launch and partnership of national brands: Kohler, Home Depot, and Sam’s Club",
+            "Tech Integration: Led the transition to digital lead captures that integrated into our CRM for an improved efficiency of 30%. Also integrated Five9 an automated call center dialer",
         ],
         secWork: "IT",
         secDuties: [
-            "Tech Integration: Led the transition to digital lead captures that integrated into our CRM for an improved efficiency of 30%. Also integrated Five9 an automated call center dialer",
             "Support: Managed over 100 devices with Mobile Device Management system, onboarding setup for new employees on Microsoft AD and thinClient/ Remote Desktop",
-            "HelpDesk: Assist the department with technical issues Audio/Visual, email, and general computer troubleshooting"
+            "HelpDesk: Assist the department with technical issues Audio/Visual, Email, Microsoft Server , and general computer troubleshooting",
+            "Database: Simple SQL commands and database integrity"
         ],
     },
     {
         job: "Other",
-        about: "Other Work",
-        primWork: "Other Marketing",
+        about: "I enjoy music and help my friend run Open Door Records, a music label as a hobby.",
+        primWork: "Education",
         primDuties: [
-            "Other: Setup and Installation, Cabling, VLAN, DMZ, VPN, Access Points, Firewalls, Network Segmentation",
-            "Other2: Migrations, Cloud Integration, Shares(SMB/NFS), Hardware and Software troubleshooting, Linux and Windows, Raid, Backups",
-            "PBX and VOIP using Softphones, Avaya, 3cx, and Five9 auto dialer"
+            "CSUDH: BA in Advertising and Marketing, honors in major",
+            "Coding Bootcamp: Completed coding bootcamp with focus on full stack web development",
         ],
-        secWork: "Other",
+        secWork: "Skills",
         secDuties: [
-            "Other4 Servers: Load Balancing(Application, Network), Apache, Nginx, Reverse Proxys, Port Forwarding",
-            "Other Development: React, Wordpress, Magento, Shopify, Full Stack, Microservices, API Development Docker and Kubernetes"
+            "Drums",
+            "Gardening"
         ],
     },
 ]
@@ -70,6 +69,8 @@ let workData = [
 let projData = [
     {
         project: "Venues",
+        git: "https://github.com/coronel08/Web-Dev-Bootcamp-Colt-Steele/tree/main/concertzone",
+        link: "https://strawberry-cobbler-84290.herokuapp.com/",
         photo: "https://raw.githubusercontent.com/coronel08/my-portfolio/main/images/conertzone.png",
         built: [
             '<i class="fab fa-node fa-lg"></i>',
@@ -81,6 +82,8 @@ let projData = [
     },
     {
         project: "Quiz",
+        git:"https://github.com/coronel08/flashcard_quiz",
+        link:"http://www.flashcard.fdlme.com/",
         photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/flashcard.gif",
         built: [
             '<i class="fab fa-docker fa-lg"></i>',
@@ -93,6 +96,8 @@ let projData = [
     },
     {
         project: "Yelp API",
+        git:"https://github.com/coronel08/yelp_roulette-1",
+        link:"https://yelproulette.com/",
         photo: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
@@ -105,17 +110,21 @@ let projData = [
     },
     {
         project: "Lobo Security",
+        git: "#",
+        link: "https://www.lobosecurity.com/",
         photo: "https://github.com/coronel08/wp-child/blob/main/myspace/static/photos/lobo-security.png?raw=true",
         built: [
             '<i class="fab fa-wordpress-simple fa-lg"></i>',
             '<i class="fab fa-elementor fa-lg"></i>',
             '<i class="far fa-file-code fa-lg"></i>',
         ],
-        about: "",
+        about: "Website made for customer on Wordpress",
         tags: "Frontend"
     },
     {
         project: "Myspace",
+        git: "https://github.com/coronel08/wp-child/tree/main/myspace",
+        link: "https://fdlme.com/",
         photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/myspace.png",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
@@ -123,11 +132,13 @@ let projData = [
             '<i class="fab fa-html5 fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
-        about: "",
+        about: "Portfolio site meant to look like my Mysapce a decade ago?",
         tags: "Frontend"
     },
     {
         project: "Burger",
+        git: "#",
+        link: "#",
         photo: "https://github.com/coronel08/wp-child/blob/main/myspace/static/photos/Takeout.png?raw=true",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
@@ -135,38 +146,44 @@ let projData = [
             '<i class="fab fa-html5 fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
-        about: "",
+        about: "Website made for customer using Bootstrap on Wordpress",
         tags: "Frontend"
     },
     {
         project: "Shopify",
+        git: "https://github.com/coronel08/shopify-test",
+        link: "#",
         photo: "https://github.com/coronel08/shopify-test/blob/master/public/images/shopify-project.png?raw=true",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
             '<i class="fab fa-shopify fa-lg"></i>',
             '<i class="fab fa-js fa-lg"></i>'
         ],
-        about: "",
+        about: "Built as a test for an interview as a Frontend Web Developer, built on Shopify",
         tags: "Frontend"
     },
     {
         project: "HD Webscrape",
+        git: "https://github.com/coronel08/HomeDepot_PriceScrape",
+        link: "#",
         photo: "https://github.com/coronel08/HomeDepot_PriceScrape/raw/master/webscrape.gif",
         built: [
             '<i class="fab fa-python fa-lg"></i>',
             '<i class="fas fa-file-excel fa-lg"></i>',
         ],
-        about: "",
+        about: "Automated monthly price audit process with Python, Web Scraping, and Excel for ALJ Electronics. Checks all competitors pricing and let's us know if we are offering the best price",
         tags: "Python"
     },
     {
         project: "Twilio",
+        git: "https://github.com/coronel08/twilio_update_ip",
+        link: "#",
         photo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftwilio-cms-prod.s3.amazonaws.com%2Fimages%2Fsip-interface_diagram_v2-2x.width-1600.png&f=1&nofb=1",
         built: [
             '<i class="fab fa-python fa-lg"></i>',
             '<i class="fas fa-sms fa-lg"></i>',
         ],
-        about: "",
+        about: "Created a number that forwards calls and texts from another number, seperating your business and personal cell number. Built with Python, Twilio API, and AWS",
         tags: "Python"
     },
 ]

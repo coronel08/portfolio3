@@ -98,6 +98,10 @@ body {
     }
 }
 
+.disabled{
+    opacity:0.1;
+}
+
 // Pricing Card section
 .pricing-card{
     max-width: 80rem;
@@ -161,7 +165,7 @@ body {
 
     // Pricing Card Even
     &:nth-child(even){
-        padding-left: 20%;
+        padding-left: 15%;
         
         
         h3{
