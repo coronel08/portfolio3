@@ -13,6 +13,9 @@
     <script defer src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
     <!-- Import tailwind -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
@@ -37,7 +40,7 @@
                         </p>
                         <button id="resume-button"><a
                                 href="https://s3.us-west-1.amazonaws.com/fdlme.com/fidelmar_resume.pdf"
-                                target="_blank">Resume</a></button>
+                                target="_blank">Resume <i class="fas fa-external-link-alt"></i></a></button>
                     </div>
                     <!-- Blue Line  -->
                     <div class=" absolute blue-line left-0"></div>
@@ -76,30 +79,30 @@
             </div>
             <!-- FontAwesome Icons Section -->
             <div class="flex flex-wrap gap-12 p-4 justify-center lg:px-60">
-                <div class="exp-card">
+                <div data-aos="fade-right" class="exp-card">
                     <i class="fas fa-funnel-dollar fa-5x icon"></i>
                     <h4> Digital Marketing </h4>
-                    <p class="md:p-2">SEO, Adwords, Email Campaigns, E Commerce, and FBA Amazon</p>
+                    <p class="md:p-2">Search Engine Optimization, Adwords, Email Campaigns, E Commerce, and FBA Amazon</p>
                 </div>
-                <div class="exp-card">
+                <div data-aos="fade-right" class="exp-card">
                     <i class="fas fa-laptop-code fa-5x icon"></i>
                     <h4> Web Development</h4>
                     <p class="md:p-2">Developing sites with popular frameworks like React, Wordpress, Shopify, Magento
                         and plain HTML/CSS.</p>
                 </div>
-                <div class="exp-card">
+                <div data-aos="fade-right" data-aos-delay="150" class="exp-card">
                     <i class="fas fa-pencil-alt fa-5x icon"></i>
                     <h4> UI/UX Frontend </h4>
                     <p class="md:p-2">Creating delightful user experiences using HTML, CSS, Javascript with
                         popular libraries such as Bootstrap, Tailwind, and FontAwesome</p>
                 </div>
-                <div class="exp-card">
+                <div data-aos="fade-right" data-aos-delay="150" class="exp-card">
                     <i class="fas fa-terminal fa-5x icon"></i>
                     <h4> Code </h4>
                     <p class="md:p-2">Backend and Frontend projects that have involved Databases, Servers,
                         Hosting, CDN's, API Development, and many other technologies </p>
                 </div>
-                <div class="exp-card">
+                <div data-aos="fade-right" data-aos-delay="250" class="exp-card">
                     <i class="fas fa-ambulance fa-5x icon"></i>
                     <h4>IT Support</h4>
                     <p class="md:p-2">Support in projects ranging from VOIP/PBX, Networking(VLANS,DMZ,VPN),
@@ -185,9 +188,9 @@
                         <p>Includes:</p>
                             <ul>
                                 <li>Use the best website host and domain registrars for your needs</li>
-                                <li>Design a website with 1 revision after design is completed</li>
+                                <li>Design a landing page website with 1 revision after design is completed</li>
                                 <li>Search Engine Optimization & showing up on Google</li>
-                                <li>Create digital content needed for website(can create logos if needed)</li> </li>
+                                <li>Create digital content needed for website(can create logos if needed)</li>
                             </ul>
                     </div>
                 </div>
@@ -244,6 +247,10 @@
 
 
     <script src="../src/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
