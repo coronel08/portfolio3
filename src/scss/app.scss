@@ -5,6 +5,27 @@ $text-color: #BFDBFD;
 
 * {
     font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+.progress-bar{
+    position: fixed;
+    background: $secondary-color;
+    height: 4px;
+    z-index: 100;
+    transition-timing-function: ease;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+.scroll-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    color: $secondary-color;
+    background-color: $primary-color;
+    padding: 4px;
 }
 
 .logo{
@@ -78,7 +99,7 @@ body {
     }
 }
 
-// Job section
+// Work Experience section
 .blue-border{
     border: 8px solid $ternary-color;
 }
@@ -204,5 +225,14 @@ body {
             border-width: 5px 5px 5px 0;
             border-radius: 0 50px 50px 0;
         }
+    }
+}
+
+
+// Media breakpoints, 
+// small screen scroll to top button
+@media (max-width: 640px) {
+    .scroll-to-top{
+        display: none;
     }
 }
