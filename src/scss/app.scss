@@ -230,9 +230,12 @@ body {
 
 
 // Media breakpoints, 
-// small screen scroll to top button
+// Small screen scroll to top button,
 @media (max-width: 640px) {
     .scroll-to-top{
-        display: none;
+        padding: 0;
+        right: 0;
+        bottom: 0;
+
     }
 }

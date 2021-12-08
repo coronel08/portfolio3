@@ -8,9 +8,16 @@ const progressBar = () => {
         const viewPortHeight = window.innerHeight
         const totalHeightScrollable = body.scrollHeight
 
-        // Convert pixels to %
+        // Convert pixels to % and style progress bar width
         const pixelsToPercentage = (pixelScrolled / (totalHeightScrollable - viewPortHeight)) * 100
         progressBar.style.width = Math.round(pixelsToPercentage) + "%"
+
+        // Scroll to top button only visible at certain point
+        if(pixelScrolled >= 500){
+            scrollToTop.style.visibility = "visible"
+        } else {
+            scrollToTop.style.visibility = "hidden"
+        }
     }
 
     window.addEventListener('scroll', stretch)
