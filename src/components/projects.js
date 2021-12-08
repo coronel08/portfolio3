@@ -49,7 +49,7 @@ function projectCard(projData) {
             faLink.classList.add("fas", "fa-external-link-alt", "fa-lg")
             let projLink = combineLinkAndIcon(faLink, proj.link)
             // Proj Title
-            let projTitle = document.createElement("h4")
+            let projTitle = document.createElement("h3")
             projTitle.classList.add("text-lg", "font-bold")
             projTitle.innerText = proj.project
             // Append icons, links and title to flex row
