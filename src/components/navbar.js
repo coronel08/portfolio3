@@ -11,7 +11,6 @@ const navbar = () => {
     <div class="flex gap-8 mr-8 m-4 text-blue-200 justify-between">
         <a href="#wrk">Work</a>
         <a href="#prjcts">Projects</a>
-        <a href="#pricing">Pricing</a>
     </div>
     `
 
