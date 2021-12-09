@@ -20,7 +20,7 @@ function projectCard(projData) {
         for (let proj of filteredProj) {
             // Wrapper div, responsive col's
             let projCard = document.createElement("div")
-            projCard.classList.add("col-span-12", "md:col-span-6", "lg:col-span-4", "sec-color-border", "p-2")
+            projCard.classList.add("col-span-12", "md:col-span-6", "lg:col-span-4", "pricing-card", "p-2")
 
             // Create Icon Elements in a flex
             let projFlex = document.createElement("div")

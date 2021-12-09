@@ -2,6 +2,7 @@ $primary-color: #153956;
 $secondary-color:#F6A4A5; 
 $ternary-color: #002e4d;
 $text-color: #BFDBFD;
+$fourth-color: #0A234480;
 
 * {
     font-family: 'Courier New', Courier, monospace;
@@ -133,6 +134,13 @@ body {
             border: 6px solid #008D92;
         }
     }
+}
+
+// Used pricing card below instead for cooler effect
+.proj-card{
+    border: 5px solid $ternary-color;
+    border-radius: 10px;
+    background-color:$fourth-color;
 }
 
 .disabled{
