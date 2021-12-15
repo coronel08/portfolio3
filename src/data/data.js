@@ -97,8 +97,8 @@ let projData = [
     {
         project: "Yelp API",
         git:"https://github.com/coronel08/yelp_roulette-1",
-        link:"https://yelproulette.com/",
-        photo: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg",
+        link:"https://yelp-roulette-tau.vercel.app/",
+        photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/yelpr.png",
         built: [
             '<i class="fab fa-bootstrap fa-lg"></i>',
             '<i class="fab fa-react fa-lg"></i>',
@@ -160,6 +160,19 @@ let projData = [
             '<i class="fab fa-js fa-lg"></i>'
         ],
         about: "Built as a test for an interview as a Frontend Web Developer, built on Shopify",
+        tags: "Frontend"
+    },
+    {
+        project: "Elite Staffing",
+        git: "#",
+        link: "https://elitestaffing.us/",
+        photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/elite.png",
+        built: [
+            '<i class="fab fa-wordpress fa-lg"></i>',
+            '<i class="fab fa-html5 fa-lg"></i>',
+            '<i class="fab fa-js fa-lg"></i>'
+        ],
+        about: "Built for a staffing agency integrating their previous employment software and system",
         tags: "Frontend"
     },
     {
