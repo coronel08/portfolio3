@@ -96,7 +96,7 @@ let projData = [
     },
     {
         project: "Yelp API",
-        git:"https://github.com/coronel08/yelp_roulette-1",
+        git:"https://github.com/coronel08/yelp_roulette",
         link:"https://yelp-roulette-tau.vercel.app/",
         photo: "https://raw.githubusercontent.com/coronel08/wp-child/main/myspace/static/photos/yelpr.png",
         built: [
